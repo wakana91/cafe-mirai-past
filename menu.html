@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>喫茶ミライ・パスト</title>
+  <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-logo">
+      <a href="index.html"><img src="img/logo.png"></a>
+    </div>
+    <ul class="header-list">
+      <li><a href="about.html">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="index.html#access">Access</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+
+    <nav id="nav">
+      <a href="index.html"><img class="nav-logo" src="img/logo_white.png"></a>
+      <ul class="nav-list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="index.html#access">Access</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <main class="menu-page">
+    <div class="mainvisual">
+      <img src="img/menu-mv.png" alt="">
+      <h1>喫茶の味を、今日の気分で。</h1>
+      <h3>Menu</h3>
+    </div>
+
+    <section class="featured-menu">
+      <h2 class="section-title">定番メニュー</h2>
+      <div class="featured-cards">
+        <div class="featured-card left-item" id="coffee">
+          <div class="menu-img">
+            <img src="img/ブレンドコーヒー.png" alt="">
+          </div>
+          <div class="menu-info">
+            <div class="menu-header">
+              <h4 class="menu-name">ブレンドコーヒー</h4>
+              <span class="menu-price">¥480</span>
+            </div>
+            <p class="menu-description">
+              自家焙煎した豆を丁寧にドリップし、香りとコクを最大限に引き出しました。すっきりとした後味と豊かな香ばしさで、毎日でも飲みたくなる一杯。「喫茶ミライ・パスト」のこだわりを象徴するメニューです。</p>
+          </div>
+        </div>
+        <div class="featured-card right-item" id="napolitan">
+          <div class="menu-info">
+            <div class="menu-header">
+              <h4 class="menu-name">昔ながらのナポリタン</h4>
+              <span class="menu-price">¥880</span>
+            </div>
+            <p class="menu-description">
+              ケチャップの甘酸っぱさと香ばしさをたっぷりまとわせた、喫茶店の定番パスタ。太めの麺に、玉ねぎ・ピーマン・ソーセージを合わせ、懐かしい味わいをそのまま再現しました。ひと口ごとに、どこか安心する気持ちになれる一皿です。
+            </p>
+          </div>
+          <div class="menu-img">
+            <img src="img/ナポリタン.png" alt="">
+          </div>
+        </div>
+        <div class="featured-card left-item" id="pudding">
+          <div class="menu-img">
+            <img src="img/プリン.png" alt="">
+          </div>
+          <div class="menu-info">
+            <div class="menu-header">
+              <h4 class="menu-name">クラシックプリン</h4>
+              <span class="menu-price">¥520</span>
+            </div>
+            <p class="menu-description">
+              卵の濃厚な風味と、ほろ苦いカラメルソースが絶妙に絡み合う固めのクラシックプリン。昔ながらの製法で蒸し上げ、しっかり固めに仕上げました。コーヒーとの相性も抜群で、世代を超えて愛される定番デザートです。</p>
+          </div>
+        </div>
+        <div class="featured-card right-item" id="mixsand">
+          <div class="menu-info">
+            <div class="menu-header">
+              <h4 class="menu-name">ミックスサンド</h4>
+              <span class="menu-price">¥700</span>
+            </div>
+            <p class="menu-description">
+              ふんわりパンに、卵・ハム・きゅうりをバランスよく挟んだ軽食の王道。シンプルながらも素材の味が生きていて、朝食やティータイムのお供にぴったりです。軽やかに食べられるので、コーヒーとの相性も抜群。</p>
+          </div>
+          <div class="menu-img">
+            <img src="img/ミックスサンド.png" alt="">
+          </div>
+        </div>
+        <div class="featured-card left-item" id="creamsoda">
+          <div class="menu-img">
+            <img src="img/クリームソーダ.png" alt="">
+          </div>
+          <div class="menu-info">
+            <div class="menu-header">
+              <h4 class="menu-name">クリームソーダ</h4>
+              <span class="menu-price">¥550</span>
+            </div>
+            <p class="menu-description">
+              鮮やかなメロンソーダに、バニラアイスをこんもりとのせた、懐かしさあふれる一杯。グラスの中で弾ける泡と、アイスの甘さが混ざり合えば、子どもの頃の記憶がよみがえります。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <section class="food-menu">
+        <h2 class="section-title">フード</h2>
+        <div class="food-cards">
+          <div class="food-card">
+            <div class="menu-img">
+              <img src="img/オムライス.png" alt="">
+            </div>
+            <div class="menu-info">
+              <h4 class="menu-name">オムライス</h4>
+              <span class="menu-price">¥900</span>
+            </div>
+          </div>
+          <div class="food-card">
+            <div class="menu-img">
+              <img src="img/グラタン.png" alt="">
+            </div>
+            <div class="menu-info">
+              <h4 class="menu-name">グラタン</h4>
+              <span class="menu-price">¥880</span>
+            </div>
+          </div>
+          <div class="food-card">
+            <div class="menu-img">
+              <img src="img/カレーライス.png" alt="">
+            </div>
+            <div class="menu-info">
+              <h4 class="menu-name">カレーライス</h4>
+              <span class="menu-price">¥850</span>
+            </div>
+          </div>
+          <div class="food-card">
+            <div class="menu-img">
+              <img src="img/たまごサンド.png" alt="">
+            </div>
+            <div class="menu-info">
+              <h4 class="menu-name">たまごサンド</h4>
+              <span class="menu-price">¥680</span>
+            </div>
+          </div>
+          <div class="food-card">
+            <div class="menu-img">
+              <img src="img/小倉トースト.png" alt="">
+            </div>
+            <div class="menu-info">
+              <h4 class="menu-name">小倉トースト</h4>
+              <span class="menu-price">¥550</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="drink-menu">
+        <h2 class="section-title">ドリンク</h2>
+        <div class="drink-cards">
+          <div class="drink-card">
+            <div class="menu-img">
+              <img src="img/アイスコーヒー.png" alt="">
+            </div>
+            <div class="menu-info">
+              <h4 class="menu-name">アイスコーヒー</h4>
+              <span class="menu-price">¥480</span>
+            </div>
+          </div>
+          <div class="drink-card">
+            <div class="menu-img">
+              <img src="img/ウインナーコーヒー.png" alt="">
+            </div>
+            <div class="menu-info">
+              <h4 class="menu-name">ウインナーコーヒー</h4>
+              <span class="menu-price">¥520</span>
+            </div>
+          </div>
+          <div class="drink-card">
+            <div class="menu-img">
+              <img src="img/紅茶.png" alt="">
+            </div>
+            <div class="menu-info">
+              <h4 class="menu-name">紅茶</h4>
+              <span class="menu-price">¥480</span>
+            </div>
+          </div>
+          <div class="drink-card">
+            <div class="menu-img">
+              <img src="img/アイスティー.png" alt="">
+            </div>
+            <div class="menu-info">
+              <h4 class="menu-name">アイスティー</h4>
+              <span class="menu-price">¥500</span>
+            </div>
+          </div>
+          <div class="drink-card">
+            <div class="menu-img">
+              <img src="img/ミルクセーキ.png" alt="">
+            </div>
+            <div class="menu-info">
+              <h4 class="menu-name">ミルクセーキ</h4>
+              <span class="menu-price">¥550</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dessert-menu">
+        <h2 class="section-title">デザート</h2>
+        <div class="dessert-cards">
+          <div class="dessert-card">
+            <div class="menu-img">
+              <img src="img/ホットケーキ.png" alt="">
+            </div>
+            <div class="menu-info">
+              <h4 class="menu-name">ホットケーキ</h4>
+              <span class="menu-price">¥650</span>
+            </div>
+          </div>
+          <div class="dessert-card">
+            <div class="menu-img">
+              <img src="img/あんみつ.png" alt="">
+            </div>
+            <div class="menu-info">
+              <h4 class="menu-name">あんみつ</h4>
+              <span class="menu-price">¥600</span>
+            </div>
+          </div>
+          <div class="dessert-card">
+            <div class="menu-img">
+              <img src="img/ショートケーキ.png" alt="">
+            </div>
+            <div class="menu-info">
+              <h4 class="menu-name">ショートケーキ</h4>
+              <span class="menu-price">¥520</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <ul class="sns-icons">
+      <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+    </ul>
+    <p>©2025 喫茶ミライ・パスト</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
